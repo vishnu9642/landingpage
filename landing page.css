@@ -1,0 +1,265 @@
+.backcolor{
+    background-color: white;
+}
+.backimg img{
+    position: absolute;
+    transform: translate(-50px,-50px);
+    width: 103.2%;
+    height: 35%;
+    border-bottom: 1px solid black;
+}
+.innoimg img{
+    position: relative;
+    transform: translate(-50px,-50px);
+    width: 100px;
+    top: 50px;
+    left: 50px;
+}
+.innoimg1 img{
+    position: relative;
+    transform: translate(-50px,-50px);
+    width: 100px;
+    top: -52px;
+    left: 120px;
+}
+.i{
+    position: absolute;
+    font-size: 50px;
+    margin-top: -266px;
+    margin-left: 20px;
+    color: purple;
+}
+.hub{
+    position: absolute;
+    margin-top: -210px;
+    margin-left:50px;
+    font-weight: 600px;
+    color:blue;
+}
+.login{
+    position: absolute;
+    margin-top: -180px;
+    margin-left:950px;
+    font-size:large;
+    border: 1px solid blue;
+    border-radius: 20px;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.signup{
+    position: absolute;
+    margin-top: -150px;
+    margin-left:947px;
+    font-size:large;
+    border: 1px solid blue;
+    border-radius: 20px;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.platform{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -90px;
+    margin-left: 230px;
+}
+.platform form{
+    display: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.platform:hover form{
+    display: block;
+}
+
+.services{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -90px;
+    margin-left: 380px;
+}
+.services form{
+    display: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services:hover form{
+    display: block;
+}
+.contactus{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -90px;
+    margin-left: 530px;
+    font-weight: bold;
+}
+.search{
+    position: absolute;
+    display: inline-block;
+    cursor:auto;
+    margin-top: -90px;
+    margin-left: 700px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 70px;
+    border-radius: 20px;
+
+}
+.language{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -90px;
+    margin-left: 999px;
+    font-weight: bold;
+}
+.language form{
+    display: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.language:hover form{
+    display: block;
+    color: gray;
+}
+.slogan{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+}
+.video{
+    text-align: center;
+}
+.bag img{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-left: -200px;
+}
+.askdoubts{
+    position: absolute;
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.askdoubts form{
+    position: absolute;
+    display: none;
+    background-color: gray;
+}
+.askdoubts:hover form{
+    display: block;
+}
+.createteam{
+    display: inline-block;
+    position: absolute;
+    margin-top:-30px;
+    margin-left: 550px;
+}
+.createteam form{
+    position: absolute;
+    display:none;
+    background-color: gray;
+}
+.createteam:hover form{
+    display: block;
+}
+.call{
+    display: inline-block;
+    position: absolute;
+    margin-top:-30px;
+    margin-left: 900px;
+}
+.call form{
+    position: absolute;
+    display: none;
+    border: 1px solid gray;
+}
+.call:hover form{
+    display: block;
+}
+.idea{
+    position: absolute;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-left: 420px;
+}
+.scrollingphotosimg img{
+    height: 500px;
+    width: 80%;
+    margin-left: 120px;
+}
+.scrolling img{
+    width: 200px;
+    position: absolute;
+    border: 2px solid black;
+}
+.innovation1 img{
+    margin-top: -200px;
+    margin-left: 150px;
+}
+.innovation1:hover img{
+    transform: scale(1.1);
+}
+.innovation2 img{
+    margin-top: -200px;
+    margin-left: 390px;
+    width:190px ;
+}
+.innovation2:hover img{
+    transform: scale(1.1);
+}
+.innovation3 img{
+    margin-top:-200px;
+    margin-left: 620px;
+    width: 190px; 
+}
+.innovation3:hover img{
+    transform: scale(1.1);
+}
+.innovation4 img{
+    margin-top: -200px;
+    margin-left: 840px;
+    width: 190px;
+}
+.innovation4:hover img{
+    transform: scale(1.1);
+}
+.sub{
+    text-align: center;
+    background-color: crimson;
+    border: 2px solid black;
+}
+.gridsection{
+    align-items: center;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: auto auto;
+    background-color:khaki;
+    padding: 10px;
+    gap:20px;
+}
+.blog{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: darkseagreen;
+}
+.ideasubmit{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color:darkseagreen ;
+}
+.reachoutus{
+    text-align: center;
+    background-color: cornsilk;
+}
+.footer{
+    text-align: center;
+    background-color:darkgray;
+    margin-top: -15px;
+}
